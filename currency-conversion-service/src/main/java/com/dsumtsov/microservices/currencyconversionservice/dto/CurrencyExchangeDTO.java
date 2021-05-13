@@ -9,12 +9,11 @@ import java.math.BigDecimal;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class CurrencyConversionDTO {
+public class CurrencyExchangeDTO {
+
     private Long id;
-    private String from;
     private String to;
-    private BigDecimal quantity;
-    private BigDecimal conversionMultiple;
-    private BigDecimal calculatedAmount;
+    private String from;
     private String environment;
+    private BigDecimal conversionMultiple;
 }
